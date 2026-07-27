@@ -1,0 +1,11 @@
+# 构建产物
+warp
+warp.exe
+*.exe
+
+# 注册信息含私钥与 Bearer token，绝不应入库
+reg.json
+
+# 本地测试 / 临时
+*.log
+.TMP
